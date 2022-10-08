@@ -13,3 +13,7 @@
 .gh-head-menu {
     font-weight: 600;
 }
+
+.gh-head-brand-wrapper {
+    font-family:var(--font-serif);
+}

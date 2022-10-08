@@ -3,3 +3,7 @@ yarn.lock
 .DS_Store
 dist
 **/.DS_Store
+assets/built/screen.css.map
+assets/built/screen.css
+assets/built/main.min.js.map
+assets/built/main.min.js
