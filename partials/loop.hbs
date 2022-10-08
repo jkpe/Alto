@@ -1,6 +1,6 @@
 <article class="{{post_class}}{{#unless feature_image}} no-image{{/unless}}">
 
-    {{#if feature_image}}
+    {{#if eature_image}}
     <figure class="post-media gh-canvas">
         <div class="u-placeholder horizontal kg-width-wide">
             <a class="post-image-link" href="{{url}}">
@@ -30,7 +30,7 @@
                 <span class="post-meta-item post-meta-date">
                     <time datetime="{{date format="YYYY-MM-DD"}}">{{date published_at}}</time>
                 </span>
-                {{#if reading_time}}
+                {{#if eading_time}}
                     <span class="post-meta-item post-meta-length">{{reading_time}}</span>
                 {{/if}}
                 {{#if @site.comments_enabled}}
