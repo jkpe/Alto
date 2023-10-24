@@ -5,7 +5,10 @@
 
     <div class="post-feed">
         {{#foreach posts}}
+        {{!-- Exclude posts tagged #noindex --}}
+        {{^has tag="#noindex"}}
             {{> "loop"}}
+            {{/has}}
         {{/foreach}}
     </div>
 

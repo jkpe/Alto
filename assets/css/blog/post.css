@@ -37,7 +37,7 @@
 
 .post-title {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: -0.01em;
     word-break: break-word;
 }
@@ -81,4 +81,57 @@
     .post-feed .post-title {
         font-size: 24px;
     }
+}
+
+.archive-post-date-1 + .archive-post-date-1 .archive-post-label,
+.archive-post-date-2 + .archive-post-date-2 .archive-post-label,
+.archive-post-date-3 + .archive-post-date-3 .archive-post-label,
+.archive-post-date-4 + .archive-post-date-4 .archive-post-label,
+.archive-post-date-5 + .archive-post-date-5 .archive-post-label,
+.archive-post-date-6 + .archive-post-date-6 .archive-post-label,
+.archive-post-date-7 + .archive-post-date-7 .archive-post-label,
+.archive-post-date-8 + .archive-post-date-8 .archive-post-label,
+.archive-post-date-9 + .archive-post-date-9 .archive-post-label,
+.archive-post-date-10 + .archive-post-date-10 .archive-post-label,
+.archive-post-date-11 + .archive-post-date-11 .archive-post-label,
+.archive-post-date-12 + .archive-post-date-12 .archive-post-label {
+    display: none;
+}
+
+h2.archive-post-title {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.archive-post {
+    margin: 0 0 24px;
+}
+
+.archive-post:first-child .archive-post-label {
+    margin-top: 0;
+}
+
+.archive-post-label {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 24px 0 16px;
+}
+
+.archive-post-link {
+    text-decoration: none !important;
+    color: var(--color-darkgrey) !important;
+}
+
+.archive-post-link:hover {
+    color: var(--ghost-accent-color) !important;
+}
+
+.archive-post-title {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.4;
 }

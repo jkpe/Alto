@@ -17,7 +17,8 @@
 .term-name {
     margin-bottom: 0;
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 600;
+    font-family:var(--font-serif);
 }
 
 .term-description {

@@ -1,0 +1,31 @@
+{{!< default}}
+
+{{#post}}
+
+<div class="content-area">
+<main class="site-main">
+    <article class="{{post_class}}{{#unless feature_image}} no-image{{/unless}} single-post">
+
+        <header class="article-header gh-canvas">
+            <h1 class="post-title">{{title}}</h1>
+            {{> "post-image"}}
+        </header>
+
+        <div class="gh-content gh-canvas">
+            {{#get "posts" limit="all" order="published_at desc"}}
+{{#foreach posts visibility="all"}}
+<article class="archive-post archive-post-date-{{date format="M"}}">
+    <p class="archive-post-label">{{date format="MMMM YYYY"}}</p>
+    <a class="archive-post-link" href="{{url}}">
+        <h2 class="archive-post-title">{{title}}</h2>
+    </a>
+</article>
+{{/foreach}}
+{{/get}}
+        </div>
+
+    </article>
+</main>
+</div>
+
+{{/post}}
